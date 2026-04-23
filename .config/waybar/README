@@ -1,0 +1,11 @@
+Script to change the btop hover over function. 
+
+Now when the cursor is on the btop icon these values will appear (instead of the cores usage):
+
+- CPU usage and temperature
+- RAM usage
+- GPU temperature
+
+It is important to change the name of the module at the beggining of the cript ("modules-right") and in the style.css file (so that the icon shows fully). I wrote "personal-directory" in the place where the symbolic link to the sysinfo.sh should be (example= /home/usr-name/deskto/Waybar-Custom/sysinfo.sh)
+
+DISCLAIMER: Only tested for AMD integrated GPU
