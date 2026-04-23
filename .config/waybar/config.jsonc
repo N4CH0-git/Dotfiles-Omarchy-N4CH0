@@ -56,7 +56,7 @@
   "custom/sysinfo": {
     "format": "",
     "interval": 5,
-    "exec": "/home/nacho/dot-pers/Waybar/sysinfo.sh",
+    "exec": "personal.directory",
     "return-type": "json",
     "on-click": "omarchy-launch-or-focus-tui btop",
     "on-click-right": "alacritty"
